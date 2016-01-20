@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/PostsController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/UsersController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/about.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/index.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/layout.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/posts/add-post.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/posts/all-posts.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/users/login.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/users/register.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/auth.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/config.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/express.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/mongoose.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/passport.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/routes.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/models/Post.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/models/User.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/posts.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/users.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utils/encryption.js" charset="UTF-8" />
+  </component>
+</project>

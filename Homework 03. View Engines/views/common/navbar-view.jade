@@ -1,0 +1,22 @@
+head
+doctype html
+html(lang="en")
+    meta(charset="UTF-8")
+    title NotOlx
+    link(href='../../site/bootstrap.min.css' rel="stylesheet" type="text/css")
+body
+    div(class='text-center container')
+        nav
+            each navitem in navigation
+                a(
+                href=navitem.href
+                class='btn btn-success'
+                style='margin: 10px;')
+                    = navitem.text
+    div(class='container')
+        block content
+
+    hr
+    footer(style='text-align: center;')
+        h3(class='footer') We sell stuff
+

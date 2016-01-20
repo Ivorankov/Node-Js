@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{Homework 01. NodeJsWebServer node_modules}" />
+    <file url="PROJECT" libraries="{kendo.all}" />
+  </component>
+</project>

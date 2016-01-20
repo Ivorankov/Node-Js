@@ -1,0 +1,6 @@
+extends ./common/navbar-view.jade
+block content
+    h1(class="jumbotron")='Here are our clothes :O'
+    each item in clothes
+        h1= 'Model: ' + item.name + ' || Price: ' + item.price
+        hr

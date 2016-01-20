@@ -1,0 +1,19 @@
+extends ../layout
+block content
+  h1 Add post
+  div(class="row")
+    div(class="col-md-6 col-md-offset-3")
+      form(class="form-horizontal" action="/addPost" name="registerForm" method="post")
+        fieldset
+          legend Post
+          div(class="form-group")
+            label(for="title" class="col-lg-2 control-label") Title
+            div(class="col-lg-10")
+              input(type="text" name="post[title]" class="form-control" id="title" required="required" placeholder="Title")
+          div(class="form-group")
+            label(for="content" class="col-lg-2 control-label") Content
+            div(class="col-lg-10")
+              input(type="text" name="post[content]" class="form-control" id="content" required="required" placeholder="Content")
+          div(class="form-group")
+            div(class="col-lg-10 col-lg-offset-2")
+              input(type="submit" class="btn btn-primary" value="Submit")

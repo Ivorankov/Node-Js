@@ -1,0 +1,44 @@
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 30px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+}
+a{
+    font-weight: bolder;
+}
+
+.specialBox{
+    margin: 100px;
+}
+
+.fancyHrText{
+    color:deepskyblue;
+    text-align: center;
+    background-color: #115b7a;
+}
+
+.fancyFtrText{
+    font-size: 16px;
+    color: #115b7a;
+    font-weight: bolder;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 30px;
+}
+.container{
+    background-color: white;
+    min-height: 1000px;
+}
+.submit{
+    margin-left:5px;
+}
+.eye{
+    font-size:64px;
+    color: #269abc;
+}

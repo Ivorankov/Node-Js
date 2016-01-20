@@ -1,0 +1,47 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width')
+    title= Ping
+    block css
+      link(rel='stylesheet', href='/css/style.css')
+      link(rel="stylesheet" href='/css/bootstrap.min.css')
+    block js
+      if ENV_DEVELOPMENT
+        script(src='http://localhost:35729/livereload.js')
+  body
+    div(class="navbar navbar-default navbar-fixed-top")
+      div(class="container")
+        div(class="navbar-header")
+          a(href="/" class="navbar-brand") Forumz
+        div(class="navbar-navbar" id="navbar-main")
+          ul(class="nav navbar-nav")
+            li
+              a(href="/") Home
+            li
+              a(href="/allPosts") Posts
+            li
+              a(href="/about") Who are we?
+          ul(class="nav navbar-nav navbar-right")
+            if(loggedUser)
+              li
+                a(href="/addPost") Add Post
+              li
+                a(href="/") #{loggedUser.username}
+              li
+                a(href="/logout") Logout
+            else
+              li
+                a(href="/login") Login
+              li
+                a(href="/register") Register
+
+    .container
+      if(errorMessage)
+        div(class="btn btn-danger pull-right") #{errorMessage}
+
+      if(successMessage)
+        div(class="btn btn-success pull-right") #{successMessage}
+
+      block content

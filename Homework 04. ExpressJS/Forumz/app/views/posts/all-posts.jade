@@ -1,0 +1,10 @@
+extends ../layout
+block content
+  h1 All posts
+  div(class="row")
+    each post in data
+     div(class="col-md-12")
+        h1 #{post.title}
+        p #{post.content}
+
+
